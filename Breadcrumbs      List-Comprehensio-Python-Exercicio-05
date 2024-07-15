@@ -1,0 +1,12 @@
+"""
+Objetivo: Criar uma lista com os quadrados dos números de 1 a 15.
+
+Instruções:
+
+    Usar list comprehension para gerar uma lista dos quadrados dos números de 1 a 15.
+    Exibir a lista resultante.
+"""
+
+quadrados = [num ** 2 for num in range(1, 16)]
+
+print(quadrados)
